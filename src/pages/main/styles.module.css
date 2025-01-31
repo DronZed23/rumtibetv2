@@ -144,3 +144,82 @@
     overflow: hidden; 
     text-overflow: ellipsis; 
 }
+
+.programDescriptionContainer{
+    height: 726px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 370px;
+}
+
+.functionalContainer{
+    width: 1180px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mediaContainer{
+    width: 480px;
+    height: 526px;
+}
+
+.mediaContainer{
+    position: relative;
+    width: 480px;
+    height: 526px;
+}
+
+.mountMedia{
+    position: absolute;
+    bottom: 126px;
+    right: 130px;
+}
+
+.forestMedia{
+    position: absolute;
+    bottom: 0;
+    right: 0;    
+}
+
+.tourDescriptionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 398px;
+    width: 580px;
+    align-items: flex-start;
+}
+
+.subtitleText{
+    font-family: "Nunito Sans", serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #F2BE22;
+}
+
+.titleText{
+    font-family: "Nunito Sans", serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.4px;
+    text-align: left;
+}
+
+.descriptionText{
+    font-family: "Nunito Sans", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #18121E;
+}
+
+.tourProgramButton{
+    padding: 16px 36px;
+    background-color: #1A3E3E;
+    color: #FDFDFD;
+    border-radius: 4px;
+}

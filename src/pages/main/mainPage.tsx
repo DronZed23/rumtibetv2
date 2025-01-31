@@ -8,7 +8,8 @@ import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import { formatDate } from 'react-calendar/dist/cjs/shared/dateFormatter';
 import { CalendarLogo } from './img/CalendarLogo';
-
+import mountMedia from './img/mountainMedia.png';
+import forestMedia from './img/forestMedia.png'
 
 type ValuePiece = Date | null;
 
@@ -116,6 +117,26 @@ export const MainPage = () => {
                         <button className={styles.searchButton}>Найти программу</button>
                     </div>
                 </div>
+            </div>
+            <div className={styles.programDescriptionContainer}>
+                <div className={styles.functionalContainer}>
+                    <div className={styles.mediaContainer}>
+                        <img src={mountMedia} className={styles.mountMedia}/>
+                        <img src={forestMedia} className={styles.forestMedia}/>
+                    </div>
+                    <div className={styles.tourDescriptionContainer}>
+                        <div>
+                            <h2 className={styles.subtitleText}>о нашем походе</h2>
+                            <h1 className={styles.titleText}>Исследуйте все горные массивы мира вместе с нами</h1>
+                        </div>
+                        <p className={styles.descriptionText}>Его корни уходят в один фрагмент классической латыни 45 года н.э.,/n
+                             то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney,/ne
+                              штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками /n
+                               в классической латинской литературе.</p>
+                        <button className={styles.tourProgramButton}>Программа тура</button>
+                    </div>
+                </div>
+                
             </div>
         </div>
     );
