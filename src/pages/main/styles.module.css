@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz@9..40&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unbounded&family=Ysabeau+Infant:ital@1&display=swap');
+
+
+
+.firstPathContainer{
+    height: 985px;
+    background-image: url("img/headerBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 16px 370px 82px 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    height: 72px;
+}
+
+.RumTibetLogo{
+    width: 137px;
+    height: 72px;
+}
+
+.scrollsButtonsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 625px;
+    height: 25px;
+}
+
+.scrollButton{
+    color: #FDFDFD;
+    font-family: "Nunito Sans", serif;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.55px;
+}
+
+.cunsulteButton{
+    padding: 12px 24px 12px 24px;
+    background-color: #1A3E3E;
+    color: #FDFDFD;
+    border-radius: 4px;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.searchProgramContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1180px;
+    height: 352px;
+}
+
+.searcherSlogan{
+    color: #FDFDFD;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;
+}
+
+.searchersButtonsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1180px;
+    height: 161px;
+    padding: 40px 42px 40px 42px;
+    background: #FFFFFF33;
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+}
+
+.SelectorContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 270px;
+    height: 81px;
+}
+
+.searchButton{
+    padding: 16px 36px 16px 36px;
+    background-color: #FDFDFD;
+    color: #1A3E3E;
+    border-radius: 4px;
+}
+
+.hideClaendar{
+    display: none;
+}
+
+.calendar{
+    display: flex;
+}
+
+.calendarVisionButton{
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+    background-color: none;
+    border: 1px solid #E1E3E4;
+    border-radius: 8px;
+    color: #FDFDFD;
+}
+
+.hideCalendarVisionButton{
+    display: none;
+}
+
+.searchButtonDescription{
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #FDFDFD;
+}
+
+.calendarVisionText{
+    width: 212px;
+    height: 24px;
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
